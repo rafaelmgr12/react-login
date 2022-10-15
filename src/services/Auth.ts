@@ -16,6 +16,9 @@ class AuthService{
                 return response.data;
             });
     }
+    logout(){
+        localStorage.removeItem("user");
+    }
     
 }
 
